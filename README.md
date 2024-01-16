@@ -2,21 +2,6 @@
 
 Este repositorio contiene información y recursos relacionados con la asignatura "Internet de las Cosas" impartida en el Departamento de Ingeniería en Datos e Inteligencia Organizacional.
 
-## Detalles de la Asignatura
-
-- **Nombre de la asignatura:** Internet de las Cosas
-- **Departamento o Licenciatura:** Ingeniería en Datos e Inteligencia Organizacional
-- **Ciclo:** 3
-- **Clave:** ID3469
-- **Créditos:** 6
-- **Área de formación curricular:** Licenciatura Elección Libre
-- **Tipo de asignatura:** Taller
-- **Horas de estudio:**
-  - HT: 16
-  - HP: 32
-  - TH: 48
-  - HI: 48
-
 ## Objetivos de la Asignatura
 
 - **Objetivo Cognitivo:** Describir las arquitecturas, protocolos y tecnologías para la creación de servicios y soluciones basadas en el Internet de las Cosas.
@@ -32,10 +17,10 @@ Este repositorio contiene información y recursos relacionados con la asignatura
   2. Arquitectura del IoT
   3. Aspectos de seguridad
   4. Escenarios del IoT
-     a) Ciudades inteligentes
-     b) Edificios inteligentes
-     c) Salud inteligente
-     d) Hogar inteligente
+     -a) Ciudades inteligentes
+     -b) Edificios inteligentes
+     -c) Salud inteligente
+     -d) Hogar inteligente
   5. Interacción Humano-Máquina y el IoT
 
 ### Unidad II. WEB DE LAS COSAS (WoT)
@@ -56,12 +41,12 @@ Este repositorio contiene información y recursos relacionados con la asignatura
   1. Sensores y Actuadores
   2. Procesamiento embebido de información: procesadores y microcontroladores
   3. Tecnologías de comunicación inalámbrica
-     a) Dimensiones: tasa de transferencia de datos, consumo de energía, alcance
-     b) Protocolos
+     -a) Dimensiones: tasa de transferencia de datos, consumo de energía, alcance
+     -b) Protocolos
   4. Almacenamiento y análisis de datos
-     a) Gestión de datos de sensores de alta velocidad
-     b) Consistencia de datos en un entorno intermitentemente conectado o desconectado
-     c) Identificación de valores atípicos y anomalías
+    - a) Gestión de datos de sensores de alta velocidad
+     -b) Consistencia de datos en un entorno intermitentemente conectado o desconectado
+    - c) Identificación de valores atípicos y anomalías
   5. Localización física
 
 ### Unidad IV. PROYECTO INTEGRADOR
@@ -72,7 +57,3 @@ Este repositorio contiene información y recursos relacionados con la asignatura
   3. Hallar objetos inteligentes a través de la web semántica
   4. Compartición de datos a través de servicios
   5. Integración de servicios y datos
-
----
-
-*Este README.md proporciona una visión general de la asignatura "Internet de las Cosas" y sus unidades correspondientes. Para obtener más detalles, consulte los materiales y recursos proporcionados en este repositorio.*
