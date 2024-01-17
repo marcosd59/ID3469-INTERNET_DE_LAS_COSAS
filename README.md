@@ -18,10 +18,10 @@ En esta unidad, se describen los fundamentos y los principales escenarios de apl
 2. **Arquitectura del IoT**
 3. **Aspectos de seguridad**
 4. **Escenarios del IoT**
-   - a) Ciudades inteligentes
-   - b) Edificios inteligentes
-   - c) Salud inteligente
-   - d) Hogar inteligente
+   - Ciudades inteligentes
+   - Edificios inteligentes
+   - Salud inteligente
+   - Hogar inteligente
 5. **Interacción Humano-Máquina y el IoT**
 
 ### Unidad II. WEB DE LAS COSAS (WoT)
@@ -44,12 +44,12 @@ En esta unidad, se aplican las tecnologías para la creación de objetos intelig
 1. **Sensores y Actuadores**
 2. **Procesamiento embebido de información: procesadores y microcontroladores**
 3. **Tecnologías de comunicación inalámbrica**
-   - a) Dimensiones: tasa de transferencia de datos, consumo de energía, alcance
-   - b) Protocolos
+   - Dimensiones: tasa de transferencia de datos, consumo de energía, alcance
+   - Protocolos
 4. **Almacenamiento y análisis de datos**
-   - a) Gestión de datos de sensores de alta velocidad
-   - b) Consistencia de datos en un entorno intermitentemente conectado o desconectado
-   - c) Identificación de valores atípicos y anomalías
+   - Gestión de datos de sensores de alta velocidad
+   - Consistencia de datos en un entorno intermitentemente conectado o desconectado
+   - Identificación de valores atípicos y anomalías
 5. **Localización física**
 
 ### Unidad IV. PROYECTO INTEGRADOR
