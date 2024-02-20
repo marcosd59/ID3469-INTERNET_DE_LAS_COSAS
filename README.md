@@ -1,6 +1,6 @@
 # Internet de las Cosas - ID3469
 
-Este repositorio está dedicado a la asignatura "Internet de las Cosas" impartida en el Departamento de Ingeniería en Datos e Inteligencia Organizacional.
+Este repositorio está dedicado a la asignatura "Internet de las Cosas".
 
 ## Objetivos de la Asignatura
 
@@ -61,7 +61,3 @@ En esta unidad, se proponen tecnologías de software de desarrollo de aplicacion
 3. **Hallar objetos inteligentes a través de la web semántica**
 4. **Compartición de datos a través de servicios**
 5. **Integración de servicios y datos**
-
-```bash
-git clone https://github.com/marcosd59/ID3469-INTERNET_DE_LAS_COSAS.git
-```
