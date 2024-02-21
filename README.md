@@ -1,63 +1,42 @@
-# Internet de las Cosas - ID3469
+# Sistema de Gestión de Inventarios con Notificaciones
 
-Este repositorio está dedicado a la asignatura "Internet de las Cosas".
+## Descripción
+Este proyecto implementa un sistema de gestión de inventarios para empresas, utilizando tecnología de Internet de las Cosas (IoT) con RabbitMQ. El sistema permite monitorear el stock de productos en tiempo real y enviar notificaciones automáticas cuando el inventario es bajo o excesivo.
 
-## Objetivos de la Asignatura
+## Componentes
+El sistema se compone de varios módulos, incluyendo:
+- API: Un servicio web construido con Flask para gestionar las solicitudes y enviar notificaciones.
+- Notificaciones: Un módulo para enviar notificaciones por correo electrónico cuando se detectan cambios críticos en el inventario.
+- Sensor: Un script para simular la entrada de datos de inventario desde un sensor IoT.
+- Cliente Web: Una aplicación React para visualizar el estado del inventario y recibir notificaciones en tiempo real.
 
-- **Objetivo Cognitivo:** Describir las arquitecturas, protocolos y tecnologías para la creación de servicios y soluciones basadas en el Internet de las Cosas.
-- **Objetivo Procedimental:** Proponer tecnologías, aplicaciones, servicios y sistemas propios del Internet de las Cosas para la implementación de soluciones y servicios de Internet de última generación, altamente usables.
-- **Objetivo Actitudinal:** Potenciar el autoaprendizaje y el trabajo colaborativo para la realización de experimentos de laboratorio, fortaleciendo los valores sobre la cultura del esfuerzo y del trabajo.
+## Requisitos Previos
+- Python 3.x
+- Node.js
+- RabbitMQ Server
+- Base de datos SQL Server
 
-## Unidades y Temas
+## Instalación y Configuración
 
-### Unidad I. INTRODUCCIÓN AL IoT
+### API
+1. Instale las dependencias de Python: `pip install flask flask_socketio flask_jwt_extended pika`
+2. Configure las variables de entorno y ejecute `API.py`.
 
-En esta unidad, se describen los fundamentos y los principales escenarios de aplicación del Internet de las Cosas para obtener un contexto.
+### Notificaciones
+1. Configure el servidor SMTP y las credenciales en `NOTIFICACIONES.py`.
+2. Ejecute el script para iniciar la escucha de mensajes de RabbitMQ.
 
-1. **Orígenes y definición del IoT**
-2. **Arquitectura del IoT**
-3. **Aspectos de seguridad**
-4. **Escenarios del IoT**
-   - Ciudades inteligentes
-   - Edificios inteligentes
-   - Salud inteligente
-   - Hogar inteligente
-5. **Interacción Humano-Máquina y el IoT**
+### Sensor
+1. Instale las dependencias: `pip install pika pyodbc`.
+2. Configure la conexión a la base de datos y ejecute `SENSOR.py`.
 
-### Unidad II. WEB DE LAS COSAS (WoT)
+### Cliente Web
+1. Instale Node.js y las dependencias de React: `npm install`.
+2. Ejecute la aplicación React con `npm start`.
 
-En esta unidad, se utiliza la arquitectura, tecnologías y estándares de la Web de las Cosas para su aplicación como la plataforma para el desarrollo de sistemas IoT.
-
-1. **Introducción a la WoT**
-2. **Arquitectura de aplicaciones Web avanzadas**
-3. **Arquitecturas orientadas a servicio y a recursos**
-4. **Web de tiempo real**
-5. **Web semántica: RDF y Datos Vinculados**
-6. **Web social**
-7. **Cloud Computing**
-8. **Estándares de la industria**
-
-### Unidad III. OBJETOS INTELIGENTES
-
-En esta unidad, se aplican las tecnologías para la creación de objetos inteligentes ubicables en Internet para su integración a un sistema IoT.
-
-1. **Sensores y Actuadores**
-2. **Procesamiento embebido de información: procesadores y microcontroladores**
-3. **Tecnologías de comunicación inalámbrica**
-   - Dimensiones: tasa de transferencia de datos, consumo de energía, alcance
-   - Protocolos
-4. **Almacenamiento y análisis de datos**
-   - Gestión de datos de sensores de alta velocidad
-   - Consistencia de datos en un entorno intermitentemente conectado o desconectado
-   - Identificación de valores atípicos y anomalías
-5. **Localización física**
-
-### Unidad IV. PROYECTO INTEGRADOR
-
-En esta unidad, se proponen tecnologías de software de desarrollo de aplicaciones web y objetos inteligentes para la integración de un sistema IoT altamente usable.
-
-1. **Objeto inteligente**
-2. **Accesibilidad**
-3. **Hallar objetos inteligentes a través de la web semántica**
-4. **Compartición de datos a través de servicios**
-5. **Integración de servicios y datos**
+## Uso
+Una vez que todos los componentes están en funcionamiento:
+1. El módulo Sensor simula la entrada de datos de inventario y los envía a RabbitMQ.
+2. La API recibe estos datos, actualiza el inventario y verifica si es necesario enviar notificaciones.
+3. Las notificaciones se envían por correo electrónico y a través de la aplicación web en tiempo real.
+4. El cliente web permite visualizar el estado actual del inventario y recibir alertas.
